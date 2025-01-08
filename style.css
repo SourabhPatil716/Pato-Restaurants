@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item a {
+    color: white;
+}
+
+.carousel-inner {
+     height: 600px; 
+}
+
+
+.carousel-item .card {
+    margin: 0 auto;
+}
+
+.carousel-item,
+.carousel-item img {
+
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+
+#discover {
+    background: url(images/bg-intro-01.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.contactme form {
+    padding: 5%;
+}
+
+.contactme input {
+    width: 100%;
+    margin: 10px 0;
+    height: 40px;
+    border: 2px solid rgb(246, 246, 246);
+    padding: 20px;
+
+}
+
+.contactme input::placeholder,
+.contactme textarea::placeholder {
+    color: rgb(198, 196, 196)
+}
+
+.contactme textarea {
+    height: 100px;
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid rgb(246, 246, 246);
+    padding: 20px;
+
+}
+
+.contactme button {
+    padding: 10px 25px;
+    border-radius: 30px;
+    background: orange;
+    border: none;
+    margin: 5px 10px;
+    text-transform: uppercase;
+    color: white
+}
+
+/* --------------------------------------------------- */
+
+/* personal css */
+/* --------------------------------------------------- */
